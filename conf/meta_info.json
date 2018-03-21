@@ -1,0 +1,19 @@
+{
+    "description": "Description : L'api comprehension interroge un modele de prédiction pour extraire les entités d'une phrase",
+    "version": "1",
+    "ressources": [
+        {
+            "path": "quiquoiou",
+            "methods": [
+                "GET"
+            ],
+            "exemple": [
+                {
+                    "presentation": "Récupérer le qui/quoi Ou d'une phrase",
+                    "path": "/quiquoiou?phrase='je cherche un plombier à rennes'"
+                }
+            ]
+        }
+    ]
+
+}
